@@ -11,7 +11,7 @@ class Formatter {
     let y=this.capitalize(x[0]);
    let z=x.slice(1);
  let l= z.map(e=>{
-     if(e=="the"||e=="an"||e=="but"||e=="of"||e=="and"||e=="for"||e=="by"||e=="from"||e=="at"){
+     if(e=="the"||e=="a"||e=="an"||e=="but"||e=="of"||e=="and"||e=="for"||e=="by"||e=="from"||e=="at"){
        return e;
      }
      
