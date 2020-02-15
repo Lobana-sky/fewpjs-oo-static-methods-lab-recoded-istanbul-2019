@@ -21,6 +21,6 @@ class Formatter {
        return this.capitalize(e);
      } 
    }).join(" ");
-   return y+l;
+   return [y,l].join(" ");
   }
 }
