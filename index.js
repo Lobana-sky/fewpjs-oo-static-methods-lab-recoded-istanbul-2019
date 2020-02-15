@@ -14,9 +14,7 @@ class Formatter {
      if(e=="the"||e=="an"||e=="but"||e=="of"||e=="and"||e=="for"||e=="by"||e=="from"||e=="at"){
        return e;
      }
-     else if(e=="a"){
-       
-     }
+     
      else {
        return this.capitalize(e);
      } 
