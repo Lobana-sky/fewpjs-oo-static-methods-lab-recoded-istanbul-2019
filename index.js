@@ -8,6 +8,7 @@ class Formatter {
   }
   static titleize(string){
     let x=string.split(" ");
+    x=x.slice(1);
  return  x.map(e=>{
      if(e=="the"||e=="an"||e=="but"||e=="of"||e=="and"||e=="for"||e=="by"||e=="from"||e=="at"){
        return e;
