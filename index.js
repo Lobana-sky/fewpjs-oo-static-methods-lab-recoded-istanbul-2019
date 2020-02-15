@@ -10,7 +10,7 @@ class Formatter {
     let x=string.split(" ");
     let y=this.capitalize(x[0]);
     z=x.slice(1);
- return  z.map(e=>{
+ let l= z.map(e=>{
      if(e=="the"||e=="an"||e=="but"||e=="of"||e=="and"||e=="for"||e=="by"||e=="from"||e=="at"){
        return e;
      }
@@ -21,5 +21,6 @@ class Formatter {
        return this.capitalize(e);
      } 
    }).join(" ");
+   return y+l;
   }
 }
