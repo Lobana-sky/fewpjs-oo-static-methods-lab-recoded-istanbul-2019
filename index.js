@@ -9,7 +9,7 @@ class Formatter {
   static titleize(string){
     let x=string.split(" ");
  return  x.map(e=>{
-     if(e=="the"||e=="a"||e=="an"||e=="but"||e=="of"||e=="and"||e=="for"||e=="by"||e=="from"||e=="at"){
+     if(e=="the"||e=="an"||e=="but"||e=="of"||e=="and"||e=="for"||e=="by"||e=="from"||e=="at"){
        return e;
      }
      else {
